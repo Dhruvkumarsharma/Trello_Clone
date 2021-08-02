@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <input type="text" id="search-box">
+        <div class="search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="name">
+            To-Do List
+        </div>
+    </div>
+    <div class="content">
+        <div class="todo">
+            <h4>TO DO !!</h4>
+            <div class="todo-lists">
+            </div>
+            <div class="todo-input">
+                <button type="submit" class="todo-add">ADD</button>
+            </div>
+
+        </div>
+        <div class="doing">
+            <h4>Doing !!</h4>
+            <div class="todo-lists">
+                
+
+            </div>
+            <div class="todo-input">
+                <button type="submit" class="todo-add">ADD</button>
+            </div>
+        </div>
+        <div class="done">
+            <h4>Done !!</h4>
+            <div class="todo-lists">
+
+            </div>
+            <div class="todo-input">
+                <button type="submit" class="todo-add">ADD</button>
+            </div>
+        </div>
+    </div>
+    <div class="list-box">
+        
+    </div>
+    <!-- <div class="list-click">
+        <div class="close-btn">
+            <i class="fas fa-window-close"></i>
+        </div>
+        <div class="list-heading">
+                This is heading
+        </div>
+
+        <div class="list-filter">
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="orange"></div>
+            <div class="blue"></div>
+        </div>
+
+        <div class="list-desc" contenteditable="true"></div>
+        <button type="submit" class="save-content">SAVE</button>
+        <div class="delete">
+            <i class="fas fa-trash"></i>
+        </div>
+    </div> -->
+    
+
+    <script src="./script.js"></script>
+    <script src="./db.js"></script>
+    <script src="./drag.js"></script>
+    <script src="./lists.js"></script>
+</body>
+</html>
